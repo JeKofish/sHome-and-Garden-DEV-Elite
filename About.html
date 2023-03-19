@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=ž, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/Pocetna.css">
+
+    <link rel="stylesheet" href="CSS/About.css">
 
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,31 +25,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+
+
 </head>
-
- <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-  
-    // Your web app's Firebase configuration
-    const firebaseConfig = {
-      apiKey: "AIzaSyDH6WXjACZbcuixpyWmbzHX7SyncncaU3E",
-      authDomain: "smart-hause-and-garden.firebaseapp.com",
-      projectId: "smart-hause-and-garden",
-      storageBucket: "smart-hause-and-garden.appspot.com",
-      messagingSenderId: "807541954599",
-      appId: "1:807541954599:web:4291cf52d80f2d09f21602"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-  </script> 
-
-
-
-
 <body>
 
     <header class="prvidiv">
@@ -59,10 +38,10 @@
                 <div class="logo"><a href="C:\Users\DT User\Desktop\Novi site\public\Pocetna.html"><img src="Images/novilogo.png" alt="" width="350px"></div></a>
                 <div class="openMenu"><i class="fa fa-bars"></i></div>
                 <ul class="mainMenu">
-                    <li><a href="C:\Users\DT User\Desktop\Novi site\public\Pocetna.html">Home</a></li>
-                    <li><a href="C:\Users\DT User\Desktop\Novi site\public\Drstranica.html">Products</a></li>
-                    <li><a href="C:\Users\DT User\Desktop\Novi site\public\Drstranica.html #login-form" >Contact</a></li>
-                    <li><a href="C:\Users\DT User\Desktop\Novi site\public\About.html">About</a></li>
+                    <li><a href="./Pocetna.html">Home</a></li>
+                    <li><a href="./Drstranica.html">Products</a></li>
+                    <li><a href="./Drstranica.html #login-form" >Contact</a></li>
+                    <li><a href="./About.html">About</a></li>
                     <div class="closeMenu"><i class="fa fa-times"></i></div>
 
                     <span id="mojati" class="icons">
@@ -75,34 +54,28 @@
                 
             </nav>
 
-            <div class="ispodlogoa"> </div>
-            <div class="poruka"><h1>We make your life easier!</h1></div>
-        </div>
-    
+
         <script src="Java/Java.js"></script> 
        </header>
 
-       <div class="prvi-dio">
+       <div class="ispodlogoa">
+        <h1>More information about our project</h1>
+     </div>
 
-            <div onmouseover="showhover('prvielement')" class="lijevo"><h1>How it works?</h1></div>
-            <div class="desno" id="prvielement"><h2>It works in combination with raspberry pi</h2></div>
-       </div>
+     <div class="sveskupa">
 
-       <div class="drugi-dio">
+        <div class="ideja"><h1>Idea</h1></div>
 
-            <div onmouseover="showhover('drugielement')"  class="lijevo2"><h1>Raspberry pi?</h1></div>
-            <div class="desno2" id="drugielement"><h2>Small single-board computer</h2></div>
-        </div>
+        <div class="ideja-obj"><p> In the world where there is more and more modern buildings with gardens and greenhouses on the roof, we decided to enable owners and consumers easy maintainance and remote access. 
+           Our system contains a variety of sensors dependent of the needs an user wants. </p></div>
 
-        <div class="button">
-            <li><a href="C:\Users\DT User\Desktop\Novi site\public\Drstranica.html">More</a></li>
-        </div>
-       
-        <footer class="footer">
-            <h1>Web application in progress...</h1>
-        </footer>
+        <div class="funkcija"><h1>Functionality</h1></div>
 
+        <div class="funkcija-obj"><p> Our application is started by a web browser. You login to you profile. With the help of RaspberryPI, there is communication with all given sensors. You are enabled remote access
+            in remote access you have rolling windows up and down, watering plants, purification of the air, measuring and maintaining temperatures.</p></div>
 
-        <script src="../Java/Java.js"></script>
+        <div class="uputstvo"><p>We have 2D preview of greenhouse that can automaticaly water with the click on the label "Water" and it will work until you press "Stop"</p></div>
+     </div>
+     
 </body>
 </html>
