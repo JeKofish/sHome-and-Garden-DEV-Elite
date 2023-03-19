@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.prvidiv {
+
+    width: 100%; 
+    height: 18vh; 
+    background-color: white;
+    
+    
+}
+
+.prvidiv .header-one{
+    padding: 0px 40px 0px 40px;
+    background-image:url(../Images/slika2.jpg);
+    background-size: cover;
+     background-position: center bottom; 
+     background-color: black;
+    opacity: 1;
+
+   
+}
+
+
+.prvidiv .header-one nav .logo img{
+    display: block;
+    margin-top: -50px,
+}
+
+.prvidiv .header-one nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .prvidiv .header-one nav .mainMenu {
+    display: flex;
+    list-style: none;
+  }
+  .prvidiv .header-one nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s ease;
+  }
+  .prvidiv .header-one nav .mainMenu li a:hover {
+    background: #33cc33;
+  }
+  .prvidiv .header-one nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+
+  .prvidiv .header-one nav .mainMenu .closeMenu,
+  .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  .fa-facebook:hover {
+    color: rgb(0, 110, 255);
+  }
+  .fa-twitter:hover {
+    color: rgb(86, 154, 243);
+  }
+  .fa-instagram:hover {
+    color: rgb(255, 0, 191);
+  }
+    .fa-github:hover {
+    color: rgb(255, 123, 0);
+  }
+  .prvidiv .header-one nav .logo {
+    margin: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .prvidiv .header-one nav .mainMenu {
+      height: 50vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: black;
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    .prvidiv .header-one nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .prvidiv .header-one nav .openMenu {
+      display: block;
+    }
+    .prvidiv .header.one nav .mainMenu li a:hover {
+      background: none;
+      color: #33cc33;
+    }
+    .prvidiv .header-one .icons i {
+      display: inline-block;
+      padding: 12px;
+    }
+ 
+
+    .sveskupa{
+        background-color: black;
+        height: 100vh;
+    }
+
+    .ispodlogoa{
+    height: 25vh;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+    .sveskupa .ideja {
+    text-transform: uppercase;
+    color: #33cc33;
+    height: 10vh;
+    background-color: black;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 10vh;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .sveskupa .ideja-obj p{
+    color: white;
+    width: 70%;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 10vh;
+    text-align: justify;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .sveskupa .funkcija {
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #33cc33;
+    height: 10vh;
+    background-color: black;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 10vh;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .sveskupa .funkcija-obj p{
+    padding-top: 50px;
+    color: white;
+    width: 70%;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 10vh;
+    text-align: justify;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  
+  .sveskupa .uputstvo p{
+    padding-top: 50px;
+    color: white;
+    width: 70%;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 10vh;
+    text-align: justify;
+    font-family:'Courier New', Courier, monospace;
+  }
+

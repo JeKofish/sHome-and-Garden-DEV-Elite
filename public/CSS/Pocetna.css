@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.prvidiv {
+
+    width: 100%; 
+    height: 90vh; 
+    background-image:linear-gradient(to bottom , rgba(0,0,0,0) 80%, rgba(0,0,0,1)), url(../Images/Slikapozadina.png); 
+    background-size: cover;
+     background-position: center bottom; 
+     background-color: black;
+    opacity: 1;
+    
+}
+
+/*.prvidiv:hover{
+    opacity: 0;
+    transform: translate(50%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+*/
+
+.prvidiv .header-one{
+    padding: 0px 40px 0px 40px;
+   
+}
+
+
+
+.prvidiv .header-one .ispodlogoa{
+    display: block;
+    width:  90%;
+    border-radius: 30px;
+    margin: auto;
+    border-bottom: 5px solid  white;
+}
+
+.prvidiv .header-one nav .logo img{
+    display: block;
+    margin-top: -50px,
+}
+
+.prvidiv .header-one nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .prvidiv .header-one nav .mainMenu {
+    display: flex;
+    list-style: none;
+  }
+  .prvidiv .header-one nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s ease;
+  }
+  .prvidiv .header-one nav .mainMenu li a:hover {
+    background: #33cc33;
+  }
+  .prvidiv .header-one nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+
+  .prvidiv .header-one nav .mainMenu .closeMenu,
+  .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  .fa-facebook:hover {
+    color: rgb(0, 110, 255);
+  }
+  .fa-twitter:hover {
+    color: rgb(86, 154, 243);
+  }
+  .fa-instagram:hover {
+    color: rgb(255, 0, 191);
+  }
+    .fa-github:hover {
+    color: rgb(255, 123, 0);
+  }
+  .prvidiv .header-one nav .logo {
+    margin: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .prvidiv .header-one nav .mainMenu {
+      height: 50vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: black;
+      transition: top 1s ease 0s;
+      display: none;
+      text-decoration: none;
+      color: white;
+    }
+    .prvidiv .header-one nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .prvidiv .header-one nav .openMenu {
+      display: block;
+      
+    }
+    .prvidiv .header.one nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+    }
+    .prvidiv .header-one .icons  a i {
+      
+      text-decoration: none;
+      display: inline-block;
+      padding: 12px;
+    }
+  
+  .prvidiv .header-one .poruka {
+    margin-top: 30vh;
+    width: 100vh;
+    margin-left: 10vh;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: bold;
+    transition-duration: 
+
+  }
+
+  .prvidiv .header-one .poruka h1{
+    font-size: 80px;
+  }
+
+  .prvidiv .header-one .poruka h1:hover{
+    transform: scalex(1.2);
+    transition-duration: 1.7s;
+  }
+
+.prvi-dio{
+    padding-top: 20vh ;
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+}
+
+
+.prvi-dio .lijevo h1{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    float: left;
+    font-size: 50px;
+    width: 20%;
+    margin-left: 20vh;
+}
+
+.prvi-dio .lijevo h1:hover{
+    padding: 3px;
+    color:#33cc33;
+    transform: scale(1.2);
+    transition-duration: 1.7s;
+    
+}
+.prvi-dio .desno h2{
+    text-transform: uppercase;
+    color: #33cc33;
+    text-align: center;
+    float: right;
+    font-size: 30px;
+    padding: 10px;
+    width: 50%;
+    margin-right: 20vh;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+
+/*
+.prvi-dio .monitor1{
+    border: 1px solid black;
+    width: 40%;
+    height: 200px;
+}
+
+.prvi-dio .monitor1 img{
+    display: block;
+    padding-top: 25vh;
+    margin: auto;
+    width: 55vh;
+}
+
+.prvi-dio .monitor1{
+    width: 40%;
+
+}
+.prvi-dio .monitor1 .text-monitora h1{
+    text-align: center;
+    z-index: 1;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    width: 40vh;
+    margin: auto;
+    margin-top: -42vh;
+}
+
+.prvi-dio .text-obj p{
+    color:white;
+}
+*/
+
+
+.drugi-dio{
+    padding-top: 20vh ;
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    height: 40vh;
+
+}
+
+.drugi-dio .lijevo2 h1{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    float: left;
+    font-size: 50px;
+    width: 20%;
+    margin-left: 20vh;
+}
+
+.drugi-dio .lijevo2 h1:hover{
+    padding: 3px;
+    color:#33cc33;
+    transform: scale(1.2);
+    transition-duration: 1.7s;
+    
+}
+
+.drugi-dio .desno2 h2{
+    text-transform: uppercase;
+    color: #33cc33;
+    text-align: center;
+    float: right;
+    font-size: 30px;
+    padding: 10px;
+    width: 50%;
+    margin-right: 20vh;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#prvielement{
+    display: none;
+}
+#drugielement{
+    display: none;
+}
+
+.button{
+    background-color: black;
+    height: 20vh;
+}
+
+.button li {
+    text-align: center;
+    list-style-type: none;
+    border: 2px solid #33cc33;
+    width: 25vh;
+    margin: auto;
+    font-size: 40px;
+    background: #33cc33;
+    text-transform: uppercase;
+
+}
+
+.button li a{
+    text-decoration: none;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.button li:hover{
+    border: 5px solid #33cc33;
+    background: black;
+    transition: 0.2s;
+    color: #33cc33 ;
+    border-radius: 100px;
+}
+
+.button li a:hover{
+    color: #33cc33 ;
+    
+}
+
+.footer{
+  background-color: black;
+}
+
+.footer h1{
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+}

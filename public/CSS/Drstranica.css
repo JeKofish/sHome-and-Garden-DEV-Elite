@@ -1,0 +1,336 @@
+
+
+.prvidiv {
+
+    width: 100%; 
+    height: 25vh; 
+    background-color: white;
+    
+    
+}
+
+.prvidiv .header-one{
+    padding: 0px 40px 0px 40px;
+    background-image:url(../Images/slika2.jpg);
+    background-size: cover;
+     background-position: center bottom; 
+     background-color: black;
+    opacity: 1;
+
+   
+}
+
+.prvidiv .header-one .ispodlogoa{
+    display: block;
+    width:  90%;
+    border-radius: 30px;
+    margin: auto;
+    border-bottom: 5px solid  black;
+}
+
+.prvidiv .header-one nav .logo img{
+    display: block;
+    margin-top: -50px,
+}
+
+.prvidiv .header-one nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .prvidiv .header-one nav .mainMenu {
+    display: flex;
+    list-style: none;
+  }
+  .prvidiv .header-one nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s ease;
+  }
+  .prvidiv .header-one nav .mainMenu li a:hover {
+    background: #33cc33;
+  }
+  .prvidiv .header-one nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+
+  .prvidiv .header-one nav .mainMenu .closeMenu,
+  .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  .fa-facebook:hover {
+    color: rgb(0, 110, 255);
+  }
+  .fa-twitter:hover {
+    color: rgb(86, 154, 243);
+  }
+  .fa-instagram:hover {
+    color: rgb(255, 0, 191);
+  }
+    .fa-github:hover {
+    color: rgb(255, 123, 0);
+  }
+  .prvidiv .header-one nav .logo {
+    margin: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .prvidiv .header-one nav .mainMenu {
+      height: 50vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: black;
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    .prvidiv .header-one nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .prvidiv .header-one nav .openMenu {
+      display: block;
+    }
+    .prvidiv .header.one nav .mainMenu li a:hover {
+      background: none;
+      color: #33cc33;
+    }
+    .prvidiv .header-one .icons i {
+      display: inline-block;
+      padding: 12px;
+    }
+  
+  .prvidiv .header-one .poruka {
+    margin-top: 30vh;
+    width: 100vh;
+    margin-left: 10vh;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: bold;
+    transition-duration: 
+
+  }
+
+  .prvidiv .header-one .poruka h1{
+    font-size: 80px;
+  }
+
+  .prvidiv .header-one .poruka h1:hover{
+    transform: scalex(1.2);
+    transition-duration: 1.7s;
+  }
+
+.maja{
+    width: auto;
+    padding-top: -30vh;
+    background-color: white;
+}
+
+  .plastenik {
+    position: relative;
+    background-color: white;
+    width: 700px;
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.plastenik img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vodeni-efekat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("putanja/do/vode.png");
+    background-repeat: repeat;
+    animation: vodeni-efekat 20s infinite linear;
+    opacity: 0.6;
+}
+
+@keyframes vodeni-efekat {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -1000px;
+    }
+}
+
+
+
+.kapljica {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url("https://i.imgur.com/DHac2TJ.png");
+    background-size: contain;
+    animation: kapljica-animacija 2s infinite linear;
+}
+
+.kapljica:nth-child(1) {
+    top: 30%;
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.kapljica:nth-child(2) {
+    top: 40%;
+    left: 70%;
+    animation-delay: 0.5s;
+}
+
+.kapljica:nth-child(3) {
+    top: 50%;
+    left: 40%;
+    animation-delay: 1s;
+}
+
+.kapljica:nth-child(4) {
+    top: 70%;
+    left: 80%;
+    animation-delay: 1.5s;
+}
+
+.kapljica:nth-child(5) {
+    top: 80%;
+    left: 10%;
+    animation-delay: 2s;
+}
+
+.kapljica:nth-child(6) {
+    top: 30%;
+    left: 50%;
+    animation-delay: 2s;
+}
+
+@keyframes kapljica-animacija {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button-container button {
+    padding: 10px 15px 10px 15px;
+    width: 25vh;
+    margin: 0 30px;
+    border: 3px solid #33cc33;
+    border-color: black;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    border-color: #33cc33;
+    border-radius: 100px;
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.maja .naslov h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    font-size: 70px;
+    text-decoration: overline;
+}
+
+.nakonsvega h1{
+    padding-top: 10vh;
+    display: block;
+    color: black;
+    height: 20vh;
+    text-align: center;
+    text-decoration: overline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #00ba41;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(70, 240, 70);
+  }
+
+  .footer{
+    background-color: black;
+  }
+  
+  .footer h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .prijefootera{
+    height: 10vh;
+  }
+  
